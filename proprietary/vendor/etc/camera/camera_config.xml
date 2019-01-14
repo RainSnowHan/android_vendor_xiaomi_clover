@@ -87,13 +87,72 @@ LensInfo : Information of the lens present in the module.
 -->
 
 <CameraConfigurationRoot>
-	<CameraModuleConfig>
-	<CameraId>0</CameraId>
-	<SensorName>ov13855_f13v10l</SensorName>
-    <ActuatorName>bu64297_f13v10l</ActuatorName>
-    <EepromName>qtech_ov13855</EepromName>
-    <!--<FlashName>pmic</FlashName>-->
-    <ChromatixName>ov13855_f13v10l_chromatix</ChromatixName>
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>platina_imx576_sunny</SensorName>
+    <SensorAlias>platina_imx576_i</SensorAlias>
+    <EepromName>platina_imx576_gt24p64ba2_sunny</EepromName>
+    <ChromatixName>platina_imx576_sunny_chromatix</ChromatixName>
+    <GlobalChromatixName>platina_imx576_sunny_global_chromatix</GlobalChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>2</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.86</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>0.15</TotalFocusDistance>
+      <HorizontalViewAngle>78.3</HorizontalViewAngle>
+      <VerticalViewAngle>78.3</VerticalViewAngle>
+      <MinFocusDistance>0.15</MinFocusDistance>
+      <MaxRollDegree>1.0</MaxRollDegree>
+      <MaxPitchDegree>1.0</MaxPitchDegree>
+      <MaxYawDegree>1.0</MaxYawDegree>
+    </LensInfo>
+  </CameraModuleConfig>
+
+  <CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>platina_imx576_ofilm</SensorName>
+    <SensorAlias>platina_imx576_ii</SensorAlias>
+    <EepromName>platina_imx576_bl24sa64_ofilm</EepromName>
+    <ChromatixName>platina_imx576_ofilm_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>2</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.86</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>0.15</TotalFocusDistance>
+      <HorizontalViewAngle>78.3</HorizontalViewAngle>
+      <VerticalViewAngle>78.3</VerticalViewAngle>
+      <MinFocusDistance>0.15</MinFocusDistance>
+      <MaxRollDegree>1.0</MaxRollDegree>
+      <MaxPitchDegree>1.0</MaxPitchDegree>
+      <MaxYawDegree>1.0</MaxYawDegree>
+    </LensInfo>
+  </CameraModuleConfig>
+
+   <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>platina_imx363_sunny</SensorName>
+    <SensorAlias>platina_imx363_i</SensorAlias>
+    <EepromName>platina_imx363_gt24p64ba8_sunny</EepromName>
+    <ActuatorName>platina_dw9714_sunny</ActuatorName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>platina_imx363_sunny_chromatix</ChromatixName>
+    <GlobalChromatixName>platina_imx363_sunny_global_chromatix</GlobalChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -104,35 +163,102 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.44</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>10</TotalFocusDistance>
-      <HorizontalViewAngle>67.8</HorizontalViewAngle>
-      <VerticalViewAngle>53.1</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <FocalLength>3.94</FocalLength>
+      <FNumber>1.9</FNumber>
+      <TotalFocusDistance>2.918</TotalFocusDistance>
+      <HorizontalViewAngle>70.4</HorizontalViewAngle>
+      <VerticalViewAngle>55.7</VerticalViewAngle>
+      <MinFocusDistance>0.07</MinFocusDistance>
+      <MaxRollDegree>1.0</MaxRollDegree>
+      <MaxPitchDegree>1.0</MaxPitchDegree>
+      <MaxYawDegree>1.0</MaxYawDegree>
     </LensInfo>
   </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>s5k5e8</SensorName>
-    <EepromName>qtech_s5k5e8</EepromName>
-    <ChromatixName>s5k5e8_chromatix</ChromatixName>
+
+   <CameraModuleConfig>
+    <CameraId>0</CameraId>
+    <SensorName>platina_imx363_ofilm</SensorName>
+    <SensorAlias>platina_imx363_ii</SensorAlias>
+    <EepromName>platina_imx363_bl24sa64_ofilm</EepromName>
+    <ActuatorName>platina_dw9714_ofilm</ActuatorName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>platina_imx363_ofilm_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
-    <MountAngle>270</MountAngle>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
     <CSIInfo>
-      <CSIDCore>2</CSIDCore>
-      <LaneMask>0x7</LaneMask>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>2.639</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>0.35</TotalFocusDistance>
-      <HorizontalViewAngle>57.5</HorizontalViewAngle>
-      <VerticalViewAngle>44.8</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+      <FocalLength>3.94</FocalLength>
+      <FNumber>1.9</FNumber>
+      <TotalFocusDistance>2.918</TotalFocusDistance>
+      <HorizontalViewAngle>70.4</HorizontalViewAngle>
+      <VerticalViewAngle>55.7</VerticalViewAngle>
+      <MinFocusDistance>0.07</MinFocusDistance>
+      <MaxRollDegree>1.0</MaxRollDegree>
+      <MaxPitchDegree>1.0</MaxPitchDegree>
+      <MaxYawDegree>1.0</MaxYawDegree>
+    </LensInfo>
+  </CameraModuleConfig>
+
+  <CameraModuleConfig>
+    <CameraId>3</CameraId>
+    <SensorName>platina_s5k5e8_sunny</SensorName>
+    <SensorAlias>platina_s5k5e8_i</SensorAlias>
+    <EepromName>platina_s5k5e8_sunny</EepromName>
+    <ChromatixName>platina_s5k5e8_sunny_chromatix</ChromatixName>
+    <GlobalChromatixName>platina_s5k5e8_sunny_global_chromatix</GlobalChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.85</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>0.15</TotalFocusDistance>
+      <HorizontalViewAngle>87.2</HorizontalViewAngle>
+      <VerticalViewAngle>87.2</VerticalViewAngle>
+      <MinFocusDistance>0.15</MinFocusDistance>
+      <MaxRollDegree>1.0</MaxRollDegree>
+      <MaxPitchDegree>1.0</MaxPitchDegree>
+      <MaxYawDegree>1.0</MaxYawDegree>
+    </LensInfo>
+  </CameraModuleConfig>
+
+  <CameraModuleConfig>
+    <CameraId>3</CameraId>
+    <SensorName>platina_s5k5e8_ofilm</SensorName>
+    <SensorAlias>platina_s5k5e8_ii</SensorAlias>
+    <EepromName>platina_s5k5e8_ofilm</EepromName>
+    <ChromatixName>platina_s5k5e8_ofilm_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.85</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>0.15</TotalFocusDistance>
+      <HorizontalViewAngle>87.2</HorizontalViewAngle>
+      <VerticalViewAngle>87.2</VerticalViewAngle>
+      <MinFocusDistance>0.15</MinFocusDistance>
+      <MaxRollDegree>1.0</MaxRollDegree>
+      <MaxPitchDegree>1.0</MaxPitchDegree>
+      <MaxYawDegree>1.0</MaxYawDegree>
     </LensInfo>
   </CameraModuleConfig>
 </CameraConfigurationRoot>
